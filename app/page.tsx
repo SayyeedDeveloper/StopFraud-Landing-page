@@ -36,7 +36,7 @@ export default function Home() {
       description: "Guides students and projects in advanced ML techniques, including fraud detection models for fintech applications. Co-founded innovative tech ventures blending academic expertise with practical deployments.",
       initials: "SC",
       color: "bg-gradient-to-br from-blue-600 to-blue-400",
-      photo: "/team/member1.jpg",
+      photo: "/team/member1.JPG",
       linkedin: "#",
       github: "#",
       portfolio: "#",
