@@ -80,10 +80,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen  bg-white">
       {/* Navigation */}
       <header className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
-        <nav className="container mx-auto flex h-16 items-center justify-between px-6">
+        <nav className="container mx-auto max-w-7xl flex h-16 items-center justify-between px-6">
           <div className="text-xl font-bold text-gray-900">Stop Fraud</div>
           <div className="hidden md:flex gap-8">
             <a href="#home" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">
@@ -110,7 +110,7 @@ export default function Home() {
 
       <main className="pt-16">
         {/* Hero Section */}
-        <section id="home" className="container mx-auto px-6 py-24 md:py-32">
+        <section id="home" className="container max-w-7xl mx-auto px-6 py-24 md:py-32">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight">
@@ -162,7 +162,7 @@ export default function Home() {
 
         {/* Problem & Solution Section */}
         <section id="problem-solution" className="bg-gray-50 py-24">
-          <div className="container mx-auto px-6">
+          <div className="container max-w-7xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">The Problem</h2>
@@ -234,7 +234,7 @@ export default function Home() {
 
         {/* Team Section */}
         <section id="team" className="py-24">
-          <div className="container mx-auto px-6">
+          <div className="container mx-auto px-2  max-w-7xl">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 text-center mb-4">
               Meet the Team
             </h2>
